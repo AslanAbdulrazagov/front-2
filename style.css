@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    color: white;
+}
+
+header {
+    background-image: url('https://i.blogs.es/6717aa/camera-traps---ru/450_1000.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px; 
+    position: relative;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .brand {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navbar .brand h1 {
+    font-size: 24px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+    margin-left: 40px;
+}
+
+.navbar li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: #00bfff;
+    border: none;
+    color: white;
+    
+}
